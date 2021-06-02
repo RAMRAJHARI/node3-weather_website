@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="icon" href="/img/weather.png" type="image/icon type">
+        
+        <title>Weather</title>
+        <img class="weatherImg" src="/img/weather.png">
+        <body>
+         {{>header}}
+         {{forecast}}
+         <form id="form1">
+             <input placeholder="Location">
+             <button>Search</button>
+         </form>
+
+        <i class="material-icons location"></i><p id="message-1"></i></p>
+         <p id="message-2"> </p>
+          {{>footer}}
+          <script src="/js/app.js"></script>
+        </body>
+    </head>
+</html>
